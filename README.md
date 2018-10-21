@@ -2,11 +2,18 @@
 Responsive web site. hand coded using Bootstrap 4
 
 ### See it live at: ###
-https://gregbopp.com/growth360
+http://gregbopp.com/growth360
+or
+https://gbclemson.github.io/growth360/
 
 #### Features ####
 * Built using Bootstrap 4 and Sass
 * Fully responsive, mobile-first
+
+### When viewing the website ###
+some of the links on the navbar will take you to the blog and blog-post pages:
+* Click on 'Diseases' to see the blog page
+* Click on 'Sample Rates' to see the blog-post page
 
 #### Thanks ####
 A big thank you to Matt @ Growth360 for giving me the opportunity to work on this project.
