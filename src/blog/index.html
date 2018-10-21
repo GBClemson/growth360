@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Growth360 Theme</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+  <!-- Local webfont for styling arrows -->
+  <link rel="stylesheet" href="../css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/flaticon.min.css">
+</head>
+<body>
+  <div class="container-fluid">  
+
+    <nav class="navbar navbar-blog navbar-expand-md navbar-light">
+      <div class="nav-left w-100 navbar-collapse order-1 order-md-0 collapse nav-main">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.gregbopp.com/growth360/blog">Diseases</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-center align-items-center order-0 order-md-1">
+        <div class="w-100"></div>
+        <a class="navbar-brand text-center w-100" href="http://www.gregbopp.com/growth360"><img src="../assets/img/vitalogy-tree.svg"></a>
+        <div class="w-100 text-right">
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target=".nav-main" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="nav-right w-100 navbar-collapse order-2 collapse nav-main">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.gregbopp.com/growth360/blog-post">Companies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sample Rates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-tag" href="#quote-box">Get A Quote</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+      <!-- quote-box -->
+      <div id="quote-box" class="col-md-4 order-2 order-md-0">
+        <div class="col-12 quote-form">
+          <span class="quote-subtitle text-center">Made For Your Life </span>
+          <h1 class="quote-title text-center">Get A Quote</h1>
+          <form class="quote-form-inner">
+            <div class="row align-items-center form-group">
+              <label class="col-5" for="quote-gender">GENDER</label>
+                <input type="radio" name="gender" id="gender-m-btn" value="male">
+                <label class="col-3 btn quote-btn" for="gender-m-btn">MALE</label>
+                <input type="radio" name="gender" id="gender-f-btn" value="female">
+                <label class="col-3 offset-1 btn quote-btn" for="gender-f-btn">FEMALE</label>
+            </div>
+            <div class="row align-items-center form-group">
+              <label class="col-5" for="DOB">DOB</label>
+              <input id="quote-dob" class="col-7 form-control active" type="date" name="dob" value="MM/DD/YYYY" data-trigger="focus">
+            </div>
+            <div class="row align-items-center form-group">
+              <label class="col-5" for="quote-state">STATE</label>
+              <select class="col-7 form-control" id="quote-state">
+                <option selected value="select">--------</option>
+                <option value="Alabama">Alabama</option>
+                <option value="Alaska">Alaska</option>
+                <option value="Arizona">Arizona </option>
+                <option value="Arkansas">Arkansas</option>
+                <option value="California">California</option>
+                <option value="Colorado">Colorado</option>
+                <option value="Connecticut">Connecticut</option>
+                <option value="Delaware">Delaware</option>
+                <option value="District of Columbia">District of Columbia</option>
+                <option value="Florida">Florida</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Hawaii">Hawaii</option>
+                <option value="Idaho">Idaho</option>
+                <option value="Illinois">Illinois</option>
+                <option value="Indiana">Indiana</option>
+                <option value="Iowa">Iowa</option>
+                <option value="Kansas">Kansas</option>
+                <option value="Kentucky">Kentucky</option>
+                <option value="Louisiana">Louisiana</option>
+                <option value="Maine">Maine</option>
+                <option value="Maryland">Maryland</option>
+                <option value="Massachusetts">Massachusetts</option>
+                <option value="Michigan">Michigan</option>
+                <option value="Minnesota">Minnesota</option>
+                <option value="Mississippi">Mississippi</option>
+                <option value="Missouri">Missouri</option>
+                <option value="Montana">Montana</option>
+                <option value="Nebraska">Nebraska</option>
+                <option value="Nevada">Nevada</option>
+                <option value="New Hampshire">New Hampshire</option>
+                <option value="New Jersey">New Jersey</option>
+                <option value="New Mexico">New Mexico</option>
+                <option value="New York">New York</option>
+                <option value="North Carolina">North Carolina</option>
+                <option value="North Dakota">North Dakota</option>
+                <option value="Ohio">Ohio</option>
+                <option value="Oklahoma">Oklahoma</option>
+                <option value="Oregon">Oregon</option>
+                <option value="Pennsylvania">Pennsylvania</option>
+                <option value="Rhode Island">Rhode Island</option>
+                <option value="South Carolina">South Carolina</option>
+                <option value="South Dakota">South Dakota</option>
+                <option value="Tennessee">Tennessee</option>
+                <option value="Texas">Texas</option>
+                <option value="Utah">Utah</option>
+                <option value="Vermont">Vermont</option>
+                <option value="Virginia">Virginia</option>
+                <option value="Washington">Washington</option>
+                <option value="West Virginia">West Virginia</option>
+                <option value="Wisconsin">Wisconsin</option>
+                <option value="Wyoming">Wyoming</option>
+              </select>
+            </div>
+            <div class="row align-items-center form-group">
+              <label class="col-5" for="quote-coverage">COVERAGE</label>
+              <select class="col-7 form-control" id="quote-coverage">
+                <option value="select">--------</option>
+                <option value="individual">Individual</option>
+                <option value="couple">Couple</option>
+                <option value="family">Family</option>
+              </select>
+            </div>
+            <div class="row align-items-center form-group">
+              <label class="col-5" for="DOB">SMOKER</label>
+              <input type="radio" name="smoker" id="smoker-y-btn" value="yes">
+                <label class="col-2 btn quote-btn" for="smoker-y-btn">Y</label>
+              <input type="radio" name="smoker" id="smoker-n-btn" value="no">
+                <label class="col-2 offset-1 btn quote-btn" for="smoker-n-btn">N</label>
+            </div>
+            <div class="row align-items-center form-group">
+              <label class="col-5" for="quote-firstname">FIRST NAME</label>
+              <input id="quote-firstname" class="col-7 form-control" type="text" name="firstname">
+            </div>
+            <div class="row align-items-center form-group">
+              <label class="col-5" for="quote-lastname">LAST NAME</label>
+              <input id="quote-firstname" class="col-7 form-control" type="text" name="lastname">
+            </div>
+            <div class="row align-items-center form-group">
+              <label class="col-5" for="quote-email">EMAIL</label>
+              <input id="quote-email" class="col-7 form-control" type="text" name="lastname">
+            </div>
+            <div class="row align-items-center form-group">
+              <button id="quote-submit" type="submit" class="btn btn-outline-dark">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- main-content-->
+      <div class="col-md-8 main-content order-0 order-md-1 spacer-tf">
+        <h1 class="blog-header text-center">Our Blog</h1>
+        <div class="row">
+          <div class="col-12 blog-filter-box">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a class="blog-filter" href="#">
+                  ALL
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="blog-filter" href="#">
+                  CATEGORY I
+                </a>
+              </li>
+              <li class="list-inline-item">
+              <a class="blog-filter" href="#">
+                CATEGORY II
+              </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="blog-filter" href="#">
+                  CATEGORY III
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> 
+
+        <div class="row justify-content-center spacer-tf">
+          <div class="col-sm-5 post-summary">
+            <span class="post-summary-category">CATEGORY NAME</span>
+            <img class="post-summary-img img-fluid" src="../assets/img/mother-baby-01.png" alt="mother & baby">
+            <h5 class="post-summary-title">Title or Name of Blog Post<br>Would Go Here Typically</h5>
+          </div>
+          <div class="col-sm-5 post-summary">
+            <span class="post-summary-category">CATEGORY NAME</span>
+            <img class="post-summary-img img-fluid" src="../assets/img/mother-baby-01.png" alt="mother & baby">
+            <h5 class="post-summary-title">Title or Name of Blog Post<br>Would Go Here Typically</h5>
+          </div>
+        </div>
+
+        <div class="row justify-content-center spacer-tf">
+          <div class="col-sm-5 post-summary">
+            <img class="post-summary-img img-fluid spacer-bh" src="../assets/img/mother-baby-02.png" alt="mother & baby">
+            <span class="post-summary-category">CATEGORY NAME</span>
+            <h5 class="post-summary-title">Title or Name of Blog Post<br>Would Go Here Typically</h5>
+            <div class="divider-wrap"><hr class="divider divider-left divider-default"></div>
+            <p class="post-summary-body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam</p>
+          </div>
+          <div class="col-sm-5 post-summary">
+            <a class="post-bullet-wrap" href="">
+              <div class="col-12 post-bullet btn-white spacer-bh">
+                <span class="post-bullet-category">CATEGORY NAME</span>
+                <h5 class="post-bullet-title">Title or Name of Blog Post Would Go Here Typically</h5>
+              </div>
+            </a>
+            <a class="post-bullet-wrap" href="">
+              <div class="col-12 post-bullet btn-white spacer-bh">
+                <span class="post-bullet-category">CATEGORY NAME</span>
+                <h5 class="post-bullet-title">Title or Name of Blog Post Would Go Here Typically</h5>
+              </div>
+            </a>
+            <a class="post-bullet-wrap" href="">
+              <div class="col-12 post-bullet btn-white spacer-bh">
+                <span class="post-bullet-category">CATEGORY NAME</span>
+                <h5 class="post-bullet-title">Title or Name of Blog Post Would Go Here Typically</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row justify-content-center spacer-tf">
+          <div class="col-sm-5 post-summary">
+            <span class="post-summary-category">CATEGORY NAME</span>
+            <img class="post-summary-img img-fluid" src="../assets/img/mother-baby-01.png" alt="mother & baby">
+            <h5 class="post-summary-title">Title or Name of Blog Post<br> Would Go Here Typically</h5>
+          </div>
+          <div class="col-sm-5 post-summary">
+            <span class="post-summary-category">CATEGORY NAME</span>
+            <img class="post-summary-img img-fluid" src="../assets/img/mother-baby-01.png" alt="mother & baby">
+            <h5 class="post-summary-title">Title or Name of Blog Post<br> Would Go Here Typically</h5>
+          </div>
+        </div>
+
+        <div class="row pagination text-center spacer-tf spacer-bh">
+          <span class="pagination-number"><a href="#">1</a></span>
+          <span class="pagination-number"><a href="#">2</a></span>
+          <span class="pagination-number"><a href="#">3</a></span>
+          <span class="pagination-number"><a href="#">...</a></span>
+          <span class="pagination-number"><a href="#">6</a></span>
+        </div>
+
+        <div class="row section">          
+          <div id="about-us" class="col-12">
+            <div class="row align-items-center">
+              <div class="col-2 about-left">
+                <span class="about-left-text">ABOUT US</span>
+              </div>
+              <div class="col-10 about-right">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                    enim ad ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum.</p>
+                <button id="about-btn" type="submit" class="btn btn-outline-dark">LEARN MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer" class="col-md-8 offset-md-4 order-2">
+        <div class="col-12">
+          <div class="row align-items-center text-center">
+            <div class="col-sm-5 order-sm-2 spacer-tf spacer-bh">
+              <ul class="social-icon-list list-inline">
+                <li class="list-inline-item">
+                  <a href="http://facebook.com/" target="_blank">
+                    <i class="flaticon-facebook-logo"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="http://twitter.com/" target="_blank">
+                    <i class="flaticon-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="http://www.linkedin.com/" target="_blank">
+                    <i class="flaticon-linkedin-sign"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="http://wwww.pinterest.com/" target="_blank">
+                    <i class="flaticon-pinterest-logo"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="http://www.instagram.com/" target="_blank">
+                    <i class="flaticon-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-2 order-sm-1 spacer-tf spacer-bh">
+              <img id="footer-logo" src="../assets/img/vitalogy-tree.svg" alt="company logo">
+            </div>
+            <div class="col-sm-5 order-sm-0 spacer-tf spacer-bh">
+              <p><a href="#">Growth360 ©2018 </a> / <a href="#">Legal</a> / <a href="#">Privacy</a></p>
+            </div>              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!---------------------------------------------------------------------------------------------------->
+  <!-- jQuery CDN -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+  <!-- Popper.js CDN -->
+  <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous">
+  </script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous">
+  </script>
+  <!-- Slick SLider CDN-->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <!-- Local App.js -->
+  <script type="text/javascript" src="../js/app.js"></script>
+
+</body>
+</html>
