@@ -2,8 +2,6 @@
 Responsive web site. hand coded using Bootstrap 4
 
 ### See it live at: ###
-http://gregbopp.com/growth360
-or
 https://gbclemson.github.io/growth360/
 
 ### Features ###
